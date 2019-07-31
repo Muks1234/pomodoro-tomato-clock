@@ -1,0 +1,98 @@
+.App{
+    height: 100vh;
+    background-color: #1E555C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+#header{
+    font-size: 60px;
+}
+
+.controls{
+    font-size:36px;
+    text-align: center;
+}
+
+#break-decrement{
+    margin-right: 15px;
+}
+
+#break-increment{
+    margin-left: 15px;
+}
+
+#session-decrement{
+    margin-right: 15px;
+}
+
+#session-increment{
+    margin-left: 15px;
+}
+
+.control_panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#break{
+    margin-right:30px;
+}
+#session{
+    margin-left: 30px;
+}
+
+#timer{
+    border: 7px solid #13353a;
+    margin: 20px auto 10px auto;
+    width: 280px;
+    height: 180px;
+    border-radius: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#time-left{
+    font-size: 60px;
+}
+
+#start_stop{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#reset{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#reset{
+    margin-top:15px;
+}
+
+#credits{
+    margin-top: 30px;
+    text-align: center;
+    font-family: monospace
+}
